@@ -151,7 +151,7 @@ module GlusterMetricsExporter
           }
           # Report Brick Health only if started
           if volume.state == "Started" && @@config.enabled?("volume_status")
-            @@brick_health[**brick_labels].set(brick.state ? 1 : 0)
+            @@brick_health[**brick_labels].set(brick.state == "Up" ? 1 : 0)
 
             @@brick_size_used[**brick_labels].set(brick.size_used)
             @@brick_size_free[**brick_labels].set(brick.size_free)
