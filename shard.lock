@@ -10,19 +10,15 @@ shards:
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git
-    version: 0.2.1
+    version: 0.2.2
 
   glustercli:
-    git: https://github.com/aravindavk/glustercli-crystal.git
-    version: 0.1.4+git.commit.4350f1cf558c7c4d27722addf11369a2ccae5f87
+    git: https://github.com/mpetke/glustercli-crystal.git
+    version: 0.1.4+git.commit.b18c27408d0b388c59a527a90a0abff28468fc24
 
   kemal:
     git: https://github.com/kemalcr/kemal.git
-    version: 1.1.0
-
-  kilt:
-    git: https://github.com/jeromegn/kilt.git
-    version: 0.6.1
+    version: 1.1.2
 
   radix:
     git: https://github.com/luislavena/radix.git
